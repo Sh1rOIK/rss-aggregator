@@ -1,4 +1,4 @@
-const url = 'habr_rss.xml';
+const url = 'https://raw.githubusercontent.com/[ТВОЙ-НИК]/[НАЗВАНИЕ-РЕПО]/main/habr_rss.xml';
 
 fetch(url)
     .then(response => response.text())
@@ -31,4 +31,5 @@ fetch(url)
             });
             news_container.innerHTML = htmlOutPut;
     })
+
     .catch(error => console.error("Ошибка: ", error));
