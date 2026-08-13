@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/[ТВОЙ-НИК]/[НАЗВАНИЕ-РЕПО]/main/habr_rss.xml';
+const url = 'https://githubusercontent.com';
 
 fetch(url)
     .then(response => response.text())
