@@ -1,4 +1,4 @@
-const url = 'https://githubusercontent.com';
+const url = 'https://habr.com';
 
 fetch(url)
     .then(response => response.text())
