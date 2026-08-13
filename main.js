@@ -1,4 +1,4 @@
-const url = 'https://habr.com';
+const url = 'https://allorigins.win' + encodeURIComponent('https://habr.com');
 
 fetch(url)
     .then(response => response.text())
